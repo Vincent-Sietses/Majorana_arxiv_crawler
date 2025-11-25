@@ -53,7 +53,7 @@ def create_html(df, filename):
     soup.head.append(csstag)
 
     titletag = soup.new_tag('title')
-    titletag.string = 'arXiv crawler'
+    titletag.string = 'Kitaev Chain ArXiv Crawler'
     soup.head.append(titletag)
 
     if os.path.isfile('favicon_input.html'):
